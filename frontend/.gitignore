@@ -1,0 +1,34 @@
+# Secrets & Configuration
+.env
+backend/.env
+.env*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Frontend Dependencies & Builds
+node_modules/
+/dist
+/build
+.eslintcache
+
+# Python Dependencies & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+.pytest_cache/
+
+# Large Model Files (Optional but highly recommended)
+# Note: If your .h5 files are larger than 100MB, GitHub will reject them.
+# If they are smaller than 100MB, you can delete these two lines to upload them.
+# agriscan_model.h5
+# leaf_gatekeeper.h5
+
+# OS Files
+.DS_Store
+Thumbs.db
